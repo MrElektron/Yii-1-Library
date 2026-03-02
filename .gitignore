@@ -1,0 +1,30 @@
+# Runtime
+protected/runtime/*
+!protected/runtime/.gitkeep
+
+# Logs
+*.log
+
+# Uploads (загруженные пользователями)
+uploads/*
+!uploads/.htaccess
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.lock
+
+# Конфиг БД (пароли) — раскомментировать при необходимости
+# protected/config/database.php
+
+# Кэш и ассеты Yii
+assets/
