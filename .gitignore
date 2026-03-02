@@ -27,4 +27,5 @@ composer.lock
 # protected/config/database.php
 
 # Кэш и ассеты Yii
-assets/
+assets/*
+!assets/.gitkeep
